@@ -1,0 +1,63 @@
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Google Font-->
+    <title>Dodgers Trivia</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                <img src="assets/images/logo.png" height="200px" id="logo">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                <header>
+                    <br>
+                    <br>
+                    <h1>Dodgers Trivia!</h1>
+                    <br>
+                    <h2>Click to get started!</h2>
+                    <button type='button' class='btn btn-default' id='start-button'><span class='glyphicon'>Start</span></button>
+                </header>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center" id="questions">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center" id="timerdiv">
+            <div class="panel panel-default">
+                    <div class="panel-heading">Time Remaining:</div>
+                    <div class="panel-body" id="countdown"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text center" id="answers">
+              
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center">
+            <div class="panel panel-default">
+                    <div class="panel-heading">Score:</div>
+                    <div class="panel-body" id="score"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>

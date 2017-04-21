@@ -1,0 +1,35 @@
+body{
+	background-image: url("../images/field.jpg");
+	color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #005B9C;
+	text-align: center;
+	font-size: 20pt;
+}
+
+#logo{
+	background-color: white;
+}
+
+#start-button:hover{
+	background-color: #005B9C;
+}
+
+#questions{
+	background-color: grey;
+	opacity: .8;
+}
+
+#answers{
+	background-color: grey;
+	opacity: .8;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+ul{
+	text-align: center;
+}
+ul:hover{
+	background-color: #005B9C;
+}
